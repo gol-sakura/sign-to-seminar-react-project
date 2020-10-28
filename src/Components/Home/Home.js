@@ -15,7 +15,7 @@ export default function Home() {
       </h2>
       <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
         <div className="carousel-inner headerImg">
-          <div className="carousel-item active" data-interval="1000" >
+          <div className="carousel-item active" data-interval="3000" >
             <img src={headerImg} className="d-block w-100 " alt="..." />
             <div className="carousel-caption d-none d-md-block text-list">
               <h1 className="caro-text ">Praesent in tincidunt tellus</h1>
@@ -24,7 +24,7 @@ export default function Home() {
               <Link to="/seminars/" className="btn btn-dark btn-lg">Book Here</Link>
             </div>
           </div>
-          <div className="carousel-item" data-interval="1000">
+          <div className="carousel-item" data-interval="2000">
             <img src={imgCarousel01} className="d-block w-100 " alt="..." />
             <div className="carousel-caption d-none d-md-block text-list">
               <h1 className="caro-text">Praesent in tincidunt tellus</h1>
@@ -33,7 +33,7 @@ export default function Home() {
               <Link to="/seminars/" className="btn btn-dark  btn-lg">Book Here</Link>
             </div>
           </div>
-          <div className="carousel-item" data-interval="1000">
+          <div className="carousel-item" data-interval="2000">
             <img src={imgcarousel} className="d-block w-100 " alt="..." />
             <div className="carousel-caption d-none d-md-block text-list">
               <h1 className="caro-text">Praesent in tincidunt tellus</h1>
@@ -42,7 +42,7 @@ export default function Home() {
               <Link to="/seminars/" className="btn btn-dark  btn-lg">Book Here</Link>
             </div>
           </div>
-          <div className="carousel-item" data-interval="1000">
+          <div className="carousel-item" data-interval="2000">
             <img src={imgCarousel02} className="d-block w-100 " alt="..." />
             <div className="carousel-caption d-none d-md-block text-list">
               <h1 className="caro-text">Praesent in tincidunt tellus</h1>
