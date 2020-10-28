@@ -49,7 +49,8 @@ const Search = () => {
 
     return (
 
-        <div>
+        <div className="container">
+
             <div className="col-md-12">
                 <form className="input-group mb-3 inline">
                     <input type="text"
@@ -63,7 +64,7 @@ const Search = () => {
                             onClick={getByTitle}>Search</button>
                     </div>
                 </form>
-                {<ul>
+                {<ul className="list-group">
                     {searchTerm ?
                         searchResults.map(item => (
                             <div key={item.id}>
