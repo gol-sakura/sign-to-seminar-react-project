@@ -17,6 +17,7 @@
     text-align: center;
     font-family: 'Averia Libre',Montserrat, Cursive;
      margin-top: 30px; 
+     
     /* margin-bottom: 10px; */
 }
 
@@ -33,8 +34,10 @@
     width:auto;
     object-fit:cover;
     
+    
     }
 .caro-text{
     color: black;
     font-weight: bold;
+    
 }
