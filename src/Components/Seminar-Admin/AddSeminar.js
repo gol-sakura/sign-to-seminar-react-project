@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SeminarDataService from '../../Services/SeminarService';
-
+import {Link} from 'react-router-dom'
 import './AddSeminar.css'
 
 const AddSeminar = () => {
@@ -57,19 +57,22 @@ const AddSeminar = () => {
     };
 
     return (
-        <div className="container text-list">
+        <div className="main">
             <div className="submit-form">
                 {submitted ? (
-                    <div>
+                    <div className="jumbotron jumbotron-book-admin">
+                        <br/>
                         <h4>You Submitted Successfully!</h4>
                         <br/>
-                        <button className="btn btn-warning btn-lg" onClick={newSeminar}>Add Seminar</button>
-                        <button className="btn btn-warning btn-lg" href="/listofseminars">Back To Seminar</button>
+                        <button className="btn btn-success btn-lg button-design"  onClick={newSeminar}>Add Seminar</button>
+                        
+                        <Link 
+                            className="btn btn-warning btn-lg  mr-2 button-design"
+                            to='/listofseminars' >Back To Seminars</Link>
                     </div>
                 ) : (
-                    <div className="container jumbotron jumbotron-book-admin text-list">
-                        <div className="form-group">
-                            
+                    <div className="jumbotron jumbotron-book-admin">
+                        <div className="form-group">                            
                             <input type="text" 
                                    className="form-control form-control-lg" 
                                    id="title" 
@@ -77,10 +80,9 @@ const AddSeminar = () => {
                                    value={seminar.title} 
                                    onChange={handleInputChange} 
                                    name="title"
-                                   placeholder="Title" />
+                                   placeholder="Title"/>
                         </div>
-                        <div className="form-group">
-                            
+                        <div className="form-group">                           
                             <textarea type="text"
                                    className="form-control form-control-lg"
                                    id="description"
@@ -126,6 +128,7 @@ const AddSeminar = () => {
                         <br/>
                         <br/>
                         <button onClick={saveSeminar} className="btn btn-warning btn-lg text-list">Add Seminar</button>
+                        
                     </div>
                 )}
             </div>

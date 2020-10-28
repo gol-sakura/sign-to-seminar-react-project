@@ -31,8 +31,8 @@ export default class App extends Component {
 
             <Route exact path='/' component={Home} />
             <Route  path='/add' component={AddSeminar} />
-            <Route  path={['/listofseminars']} component={ListOfSeminars} />
-            <Route  path={['/listofbookings']} component={ListOfBookings} />
+            <Route  path='/listofseminars' component={ListOfSeminars} />
+            <Route  path='/listofbookings' component={ListOfBookings} />
             <Route  path='/semcomp/:id' component={Seminar} />
             <Route  path='/bookcomp/:id' component={Booking} />
             <Route  path='/addbooking' component={AddBooking} />

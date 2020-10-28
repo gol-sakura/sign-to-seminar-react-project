@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SeminarDataService from "../../Services/SeminarService";
 import './Seminar.css'
+import {Link} from 'react-router-dom'
 
 const Seminar = props => {
     const initialSeminarState = {
@@ -166,7 +167,9 @@ const Seminar = props => {
                             onClick={updateSeminar}>Update</button>
                         
                         <p>{message}</p>
-
+                        <Link 
+                            className="btn btn-info btn-lg  mr-2"
+                            to='/listofseminars' >Back To Seminars</Link>
                     </div>
                 ) : (
                     <div>
