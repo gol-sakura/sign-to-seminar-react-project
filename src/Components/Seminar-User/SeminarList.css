@@ -1,0 +1,30 @@
+
+.text-list {
+    text-align: center;
+    font-family: 'Averia Libre',Montserrat, Cursive;
+    margin-top: 40px;
+ margin-bottom: 10px;
+}
+
+.img-circle {  
+    background-repeat: no-repeat;
+    width: 70%;
+    background-size: cover;
+    background-position: center center;
+    /* border-radius: 250px; */
+    
+} 
+
+p {
+    margin-top: 20px;
+}
+
+.button-design {
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgba(60, 179, 114, 0.884);
+    border-color: rgba(60, 179, 114, 0.884);
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}

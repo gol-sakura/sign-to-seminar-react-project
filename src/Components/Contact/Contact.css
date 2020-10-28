@@ -1,0 +1,18 @@
+.btn-primary {
+    color: #fff;
+    background-color: #27bd83;
+    border-color: #27bd83;
+    margin-top: 20px;
+}
+.img-contact {
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 40px;
+    
+}
+.section.contact{
+     box-sizing: center-box !important;
+} 
+

@@ -1,0 +1,16 @@
+.jumbotron-book-admin {
+
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    color:black;
+    background:#c8c8c8;
+    background:url(https://images.hdqwalls.com/wallpapers/abstract-turquoise-sg.jpg) fixed;
+    background-size: cover;
+    
+    font-family: Montserrat, sans-serif !important;
+}

@@ -1,0 +1,17 @@
+.main {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+ 
+
+ .row-list{
+  margin-left: 50px; 
+   margin-right:50px;
+    padding-right: 100px;
+   
+ }
+ .jumbotron-search {
+     background-color: rgb(230, 235, 165) !important;
+     vertical-align:middle;
+ }

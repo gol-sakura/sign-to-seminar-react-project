@@ -1,0 +1,22 @@
+.jumbotron-book-book {
+
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    color:black;
+    background:#c8c8c8;
+    background:url(https://images.hdqwalls.com/wallpapers/orange-lines-flare-abstract-4k-hg.jpg) fixed;
+    background-size: cover;
+    
+    
+}
+.text-list {
+    text-align: center;
+    font-family: 'Averia Libre',Montserrat, Cursive;
+    
+ 
+}

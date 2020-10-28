@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,400;0,700;1,300&display=swap');
+
+ .headerImg {  
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60%;
+    font-family: Montserrat, sans-serif !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+} 
+.margin.text-center {
+    margin-top: 20px; 
+    margin-bottom: 30px;
+    font-family: Montserrat, sans-serif !important;
+}
+.text-home {
+    text-align: center;
+    font-family: 'Averia Libre',Montserrat, Cursive;
+     margin-top: 30px; 
+    /* margin-bottom: 10px; */
+}
+
+
+ .carousel-inner  { 
+    height:90vh;
+    width:auto;
+    background-repeat: no-repeat;
+   /*  object-fit:cover; */
+
+} 
+.d-block.w-100 {
+    height:80vh;
+    width:auto;
+    object-fit:cover;
+    
+    }
+.caro-text{
+    color: black;
+    font-weight: bold;
+}

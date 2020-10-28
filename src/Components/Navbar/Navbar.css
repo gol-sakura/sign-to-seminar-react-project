@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,400;0,700;1,300&display=swap');
+
+
+.navbar {
+    
+    background-color: rgb(85, 189, 132) !important;
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 15px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif !important;
+    color: white !important;
+}
+.text-nav {
+    text-align: center;
+    font-family: Montserrat, Cursive;
+    font-weight: bold;
+}
+
+.navbar-custom .navbar-nav li {
+    margin: 0;
+    font-family: Montserrat, sans-serif !important;
+}
+
+.navbar-custom .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 0.94) !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Averia Libre', cursive;
+    border-bottom: 7px solid transparent;
+    
+}
+
+.navbar-custom .navbar-nav>li>a:focus,
+.navbar-custom .navbar-nav>li>a:hover {
+    background-color: transparent;
+    border-color: rgb(50, 53, 52);
+}
+
+.navbar-custom .navbar-nav>.active>a {
+    border-color:  rgb(50, 53, 52);
+}
+
+.navbar-toggle {
+    border: 0;
+    border-radius: 0;
+    margin-top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    padding-top: 4px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.navbar-light .navbar-brand { 
+    color:white;
+}
+
+.admin{
+    color:white !important;
+    /* font-weight: bold; */
+    /* font-family: Montserrat, sans-serif !important; */
+    font-weight: bold;
+}
