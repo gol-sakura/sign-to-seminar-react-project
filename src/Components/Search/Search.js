@@ -51,7 +51,7 @@ const Search = () => {
 
         <div>
             <div className="col-md-12">
-                <div className="input-group mb-3">
+                <form className="input-group mb-3 inline">
                     <input type="text"
                         className="form-control form-control-lg mr-sm-2 "
                         placeholder="search by title"
@@ -62,20 +62,21 @@ const Search = () => {
                             type="button"
                             onClick={getByTitle}>Search</button>
                     </div>
-                </div>
+                </form>
                 {<ul>
                     {searchTerm ?
                         searchResults.map(item => (
                             <div key={item.id}>
-                                 <div >
+                                <div >
                                     <br />
                                     <a className="list-group" href={["/seminarinfo/"] + item.id}>{item.title}</a>
-                                </div> 
+                                </div>
                             </div>
                         )) : null}
                 </ul>}
             </div>
             <br />
+            
         </div>
 
     )
