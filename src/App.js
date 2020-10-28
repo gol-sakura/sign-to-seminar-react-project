@@ -5,9 +5,9 @@ import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
-import Footer from './Components/Footer/Footer'
-import Contact from './Components/Contact/Contact'
 
+import Contact from './Components/Contact/Contact'
+import FooterNew from './Components/Footer/FooterNew'
 
 import  AddSeminar from './Components/Seminar-Admin/AddSeminar'
 import  ListOfSeminars from './Components/Seminar-Admin/ListOfSeminars'
@@ -43,8 +43,11 @@ export default class App extends Component {
             <Route path='/contact' component={Contact} />
            
           </Switch>
-          <Footer />
+          
         </Router>
+        <br/>
+          <FooterNew />
+       
       </div>
     );
   }

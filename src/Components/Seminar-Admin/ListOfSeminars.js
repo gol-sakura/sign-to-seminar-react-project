@@ -66,7 +66,7 @@ const ListOfSeminar = () => {
             </div> 
             <br/>
             <div className="col-md-6  jumbotron-search">
-               
+            <br/>
                 <h4>Seminar List</h4>
                 <br/>
                 <br/>

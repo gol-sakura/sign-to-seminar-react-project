@@ -55,10 +55,11 @@ const ListOfBooking = () => {
     
 
     return (
-        <div className="list row main text-list">
+        <div className="container-lg">
+        <div className="list row  text-list">
             <div className="col-md-12">
                 
-            </div>
+            </div >
             <div className=" jumbotron my-4 col-md-6">
                 <h4>Booking List</h4>
                 <br/>
@@ -134,6 +135,7 @@ const ListOfBooking = () => {
                     </div>
                 )}
             </div>
+        </div>
         </div>
     );
 };

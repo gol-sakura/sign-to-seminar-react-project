@@ -57,7 +57,7 @@ const AddSeminar = () => {
     };
 
     return (
-        <div className="main">
+        <div className=" container inline ">
             <div className="submit-form">
                 {submitted ? (
                     <div className=" ">

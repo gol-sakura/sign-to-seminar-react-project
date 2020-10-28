@@ -61,7 +61,7 @@ const AddBooking = () => {
     };
 
     return (
-        <div className="main text-list">
+        <div className="container linline  text-list">
             <div className="submit-form text-list">
                 {submitted ? (
                     <div className="jumbotron text-list">

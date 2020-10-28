@@ -5,8 +5,9 @@ import imgcontact from './imgcontact.jpg'
 
 export default function Contact() {
     return (
-        <div>
+        <div className="container inline ">
         <section id="contact" className="section contact text-list">
+
         <div className="container" >
             <div className="row">
                 <div className="text-center">
@@ -49,7 +50,9 @@ export default function Contact() {
             </div>
         </div>
     </section>
-
+<br/>
+<br/>
+<br/>
         </div>
     )
 }

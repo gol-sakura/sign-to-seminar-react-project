@@ -33,8 +33,8 @@ const SeminarList = () => {
 
     
     return (
-        <div>
-            <br/>
+        <div className="container inline">
+        
             <div className="col-md-12 text-list">
                <Search  />
             </div>
