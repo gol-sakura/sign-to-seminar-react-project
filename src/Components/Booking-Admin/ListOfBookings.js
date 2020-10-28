@@ -55,8 +55,10 @@ const ListOfBooking = () => {
     
 
     return (
-        <div className="container-lg">
-        <div className="list row  text-list">
+        <div className="main">
+            <br/>
+            <Link to="/" type="button" className="btn btn-warning btn-lg text "> Home</Link>
+        <div className="list row main text-list">
             <div className="col-md-12">
                 
             </div >
@@ -69,7 +71,7 @@ const ListOfBooking = () => {
                         <li className={"list-group-item     " + (index === currentIndex ? "active" : " ")
                     }
                     onClick={() => setActiveBooking(booking, index)}
-                key={index}><h5 className="d-flex w-100"><strong>{booking.firstName} {booking.lastName}</strong></h5> 
+                key={index}><h5 className="d-flex w-100"><strong>Full Name: {booking.firstName} {booking.lastName}</strong></h5> 
                 <div className=" mb-1"><strong>Email:</strong> {booking.email}</div>  
                 <div className="  mb-1"><strong>Mobile:</strong> {booking.mobile}</div>
                 <div className="  mb-1"><strong>Message:</strong> {booking.message}</div>
@@ -135,7 +137,9 @@ const ListOfBooking = () => {
                     </div>
                 )}
             </div>
+            
         </div>
+       
         </div>
     );
 };
