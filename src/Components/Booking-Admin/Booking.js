@@ -85,13 +85,14 @@ const Booking = props => {
     };
 
     return (
-        <div className="jumbotron main">
+        <div className="main jumbotron-book-admin text-list">
             <div>
                 {currentBooking ? (
                     <div className="edit-form">
+                        <br/>
                         <h4>Booking</h4>
                         <br/>
-                        <form className="jumbotron"> 
+                        <form className=""> 
                             <div className="form-group row">
                                 <label htmlFor="colFormLabelLg"  className="col-sm-2 col-form-label col-form-label-lg"><strong>First Name</strong></label>
                                 <input 
