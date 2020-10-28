@@ -3,7 +3,7 @@
     text-align: center;
     font-family: 'Averia Libre',Montserrat, Cursive;
     margin-top: 40px;
- margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .img-circle {  
@@ -22,9 +22,26 @@ p {
 .button-design {
     margin-right: 5px;
     margin-left: 5px;
-    background-color: rgba(60, 179, 114, 0.884);
-    border-color: rgba(60, 179, 114, 0.884);
+    background-color: rgba(60, 179, 114, 1.884);
+    border-color: rgba(60, 179, 114, 1.884);
     color: white;
     margin-bottom: 50px;
     margin-top: 10px;
+}
+
+.cont-list {
+    background-color: rgb(176, 187, 179, 0.600);
+    padding-top: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+     margin-right: -15px;
+    margin-left: 0px;
 }

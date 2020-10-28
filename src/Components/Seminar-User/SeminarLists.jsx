@@ -33,7 +33,7 @@ const SeminarList = () => {
 
     
     return (
-        <div className="container inline">
+        <div className="container cont-list">
         
             <div className="col-md-12 text-list">
                <Search  />

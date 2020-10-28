@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom text-nav sticky-top">
-        <a className="navbar-brand text-nav" href="/">
+        <a className="navbar-brand text-nav admin" href="/">
           SignToSeminar
         </a> 
 

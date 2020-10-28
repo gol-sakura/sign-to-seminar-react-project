@@ -16,8 +16,8 @@
 }
 .text-nav {
     text-align: center;
-    font-family: Montserrat, Cursive;
-    font-weight: bold;
+    font-family: Montserrat, Cursive !important;
+    /* font-weight: bold; */
 }
 
 .navbar-custom .navbar-nav li {
@@ -32,12 +32,13 @@
     font-family: 'Averia Libre', cursive;
     border-bottom: 7px solid transparent;
     
+    
 }
 
 .navbar-custom .navbar-nav>li>a:focus,
 .navbar-custom .navbar-nav>li>a:hover {
     background-color: transparent;
-    border-color: rgb(50, 53, 52);
+    border-color: rgba(253, 253, 253, 0.774);
 }
 
 .navbar-custom .navbar-nav>.active>a {
@@ -58,11 +59,24 @@
 
 .navbar-light .navbar-brand { 
     color:white;
+    font-family: Montserrat, sans-serif !important; 
 }
 
 .admin{
     color:white !important;
     /* font-weight: bold; */
-    /* font-family: Montserrat, sans-serif !important; */
+    
+}
+.nav-item.nav-link.dropdown-toggle.admin.text-nav  {
+    font-family: Montserrat, sans-serif !important; 
+    /* font-weight: bold; */
+}
+
+a.dropdown-menu.show {
+    font-family: Montserrat, sans-serif !important; 
     font-weight: bold;
+ 
+}
+.navbar-brand.text-nav.admin {
+    font-family: Montserrat, sans-serif !important;
 }

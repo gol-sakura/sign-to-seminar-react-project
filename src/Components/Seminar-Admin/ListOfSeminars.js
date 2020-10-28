@@ -57,7 +57,7 @@ const ListOfSeminar = () => {
     
 
     return (
-        
+        <div className="container">
         <div className="row list main text-list">
             <br/>
          <div className="col-md-12">
@@ -127,7 +127,7 @@ const ListOfSeminar = () => {
                 )}
             </div>
         </div>
-        
+        </div>
     );
 };
 

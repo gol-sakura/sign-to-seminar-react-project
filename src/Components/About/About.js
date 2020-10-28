@@ -4,7 +4,7 @@ import './About.css'
 
 export default function About() {
     return (
-        <div className="container inline text text-list">
+        <div className="container text text-list">
             <section id="about" className="section about text">
         <div className="container">
             <div className="row">

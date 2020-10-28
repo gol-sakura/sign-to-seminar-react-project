@@ -9,7 +9,7 @@ import imgCarousel02 from './imgCarousel02.jpg'
 
 export default function Home() {
   return (
-    <div className="container inline bg-1 text-center">
+    <div className="container-sm bg-1 text-center">
       <h2 className="margin text-home">
         "Welcome to SignToSeminar for Healthy Life Style"
       </h2>
@@ -18,7 +18,7 @@ export default function Home() {
           <div className="carousel-item active" data-interval="1000" >
             <img src={headerImg} className="d-block w-100 " alt="..." />
             <div className="carousel-caption d-none d-md-block text-list">
-              <h1 className="caro-text">Praesent in tincidunt tellus</h1>
+              <h1 className="caro-text ">Praesent in tincidunt tellus</h1>
               <h4 className="caro-text">Sed tellus neque, lacinia eget libero a, blandit malesuada lacus</h4>
               <br/>
               <Link to="/seminars/" className="btn btn-dark btn-lg">Book Here</Link>
