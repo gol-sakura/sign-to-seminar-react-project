@@ -4,14 +4,14 @@
     background-repeat: no-repeat;
     width: 60%;
     height: 60%;
-    font-family: Montserrat, sans-serif !important;
+    font-family: 'Averia Libre',Montserrat, Cursive;
     padding-top: 30px;
     padding-bottom: 30px;
 } 
 .margin.text-center {
     margin-top: 20px; 
     margin-bottom: 30px;
-    font-family: Montserrat, sans-serif !important;
+    font-family: 'Averia Libre',Montserrat, Cursive;
 }
 .text-home {
     text-align: center;

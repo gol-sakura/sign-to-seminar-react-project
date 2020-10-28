@@ -11,25 +11,25 @@
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    font-family: Montserrat, sans-serif !important;
+    font-family: 'Averia Libre',Montserrat, Cursive;
     color: white !important;
 }
 .text-nav {
     text-align: center;
-    font-family: Montserrat, Cursive !important;
+    font-family: 'Averia Libre',Montserrat, Cursive;
     /* font-weight: bold; */
 }
 
 .navbar-custom .navbar-nav li {
     margin: 0;
-    font-family: Montserrat, sans-serif !important;
+    font-family: 'Averia Libre',Montserrat, Cursive;
 }
 
 .navbar-custom .navbar-nav>li>a {
     color: rgba(255, 255, 255, 0.94) !important;
     text-transform: uppercase;
     font-size: 15px;
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Averia Libre',Montserrat, Cursive !important;
     border-bottom: 7px solid transparent;
     
     
@@ -59,7 +59,7 @@
 
 .navbar-light .navbar-brand { 
     color:white;
-    font-family: Montserrat, sans-serif !important; 
+    font-family: 'Averia Libre',Montserrat, Cursive !important; 
 }
 
 .admin{
@@ -68,15 +68,17 @@
     
 }
 .nav-item.nav-link.dropdown-toggle.admin.text-nav  {
-    font-family: Montserrat, sans-serif !important; 
+    font-family: 'Averia Libre',Montserrat, Cursive;
     /* font-weight: bold; */
 }
 
 a.dropdown-menu.show {
-    font-family: Montserrat, sans-serif !important; 
+    text-align: center;
+    font-family: 'Averia Libre',Montserrat, Cursive;
     font-weight: bold;
  
 }
 .navbar-brand.text-nav.admin {
-    font-family: Montserrat, sans-serif !important;
+    text-align: center;
+    font-family: 'Averia Libre',Montserrat, Cursive;
 }

@@ -57,15 +57,15 @@ const AddSeminar = () => {
     };
 
     return (
-        <div className=" container inline ">
+        <div className="container text-list">
             <div className="submit-form">
                 {submitted ? (
-                    <div className=" ">
+                    <div className="">
                         <h4>You Submitted Successfully!</h4>
-                        <button className="btn btn-success" onClick={newSeminar}>Add</button>
+                        <button className="btn btn-warning" onClick={newSeminar}>Add</button>
                     </div>
                 ) : (
-                    <div className="jumbotron jumbotron-book-admin">
+                    <div className="container jumbotron jumbotron-book-admin text-list">
                         <div className="form-group">
                             
                             <input type="text" 
@@ -123,7 +123,7 @@ const AddSeminar = () => {
                         </div>
                         <br/>
                         <br/>
-                        <button onClick={saveSeminar} className="btn btn-success btn-lg">Submit</button>
+                        <button onClick={saveSeminar} className="btn btn-warning btn-lg text-list">Add Seminar</button>
                     </div>
                 )}
             </div>
