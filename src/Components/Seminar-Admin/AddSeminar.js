@@ -60,9 +60,11 @@ const AddSeminar = () => {
         <div className="container text-list">
             <div className="submit-form">
                 {submitted ? (
-                    <div className="">
+                    <div>
                         <h4>You Submitted Successfully!</h4>
-                        <button className="btn btn-warning" onClick={newSeminar}>Add</button>
+                        <br/>
+                        <button className="btn btn-warning btn-lg" onClick={newSeminar}>Add Seminar</button>
+                        <button className="btn btn-warning btn-lg" href="/listofseminars">Back To Seminar</button>
                     </div>
                 ) : (
                     <div className="container jumbotron jumbotron-book-admin text-list">
